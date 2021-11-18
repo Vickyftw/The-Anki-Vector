@@ -63,33 +63,33 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
-*Hellow There, I'm Anki Vector 🍑
+*😸Heloo There, I'm RoLeX⚡️
 
-I'm a Powerfull group manager bot With Cool Modules. Made My @TeamAnkiVector
+I'm a Powerfull group manager bot With Cool Modules. Made By @ThomasShebLYY
 hit /help to Find my list of available commands 🕹*
 """
 
 buttons = [
     [
         InlineKeyboardButton(text="📌Updates Channel", url="https://t.me/ankivectorUpdates"),
-        InlineKeyboardButton(text="🖲 Support Group", url="https://t.me/AnkiSupport_Official"),
+        InlineKeyboardButton(text="🤗 Support Group", url="https://t.me/AnkiSupport_Official"),
     ],
     [
-        InlineKeyboardButton(text="📜 Source Code", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
-        InlineKeyboardButton(text="❔ Help", callback_data="helpmenu_"),
+        InlineKeyboardButton(text="👀 Source Code", url="https://telegra.ph/file/bb7ba481d15a4942f1701.mp4"),
+        InlineKeyboardButton(text="❓ Help", callback_data="helpmenu_"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Anki Vector To Youre Group ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
+            text="➕ Add RoLex To Youre Group ➕", url="http://t.me/RolexPro_Bot?startgroup=true"
         ),
     ],
 ]
 
 
-ANKIVECTOR_STICKER = "CAACAgUAAxkBAAEEwKthkPVBp6d5T4S3dlYZM3L8BkXRNAACOAQAAryviVQbCLI09PvjAAEiBA"
+ANKIVECTOR_STICKER = "CAACAgEAAx0CW55-TwACYy9hlheyJSYeV_u--nyf58v6gYOLpQACigEAAsLRGEXQq5bGVdvkGCIE"
 
 HELP_STRINGS = f"""
-*Main Commands :* 🤖
+*Main Commands :*⚠️
 
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
@@ -366,8 +366,8 @@ def AnkiVector_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Anki Vector Updates.* "
-            f"\n\n Join [AnkiVectorUpdates](https://t.me/ankivectorUpdates) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Vicky.* "
+            f"\n\n Join [TamilMusics1](https://t.me/TamilMusics1) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
             f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
@@ -400,7 +400,7 @@ def AnkiVector_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Anki Vectr Support](https://t.me/AnkiSupport_Official).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Tamilmusic_support](https://t.me/Tamilmusic_support).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
